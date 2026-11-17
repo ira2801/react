@@ -1,0 +1,27 @@
+{
+  "name": "little-lemon",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit",
+    "setup": "expo install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-worklets @expo/vector-icons expo-font expo-status-bar typescript @types/react"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-navigation/bottom-tabs": "^7.0.0",
+    "@react-navigation/drawer": "^7.0.0",
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/native-stack": "^7.0.0",
+    "expo": "~58.0.0",
+    "expo-font": "~58.0.12",
+    "react": "19.3.0",
+    "react-native": "0.88.1"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3"
+  }
+}

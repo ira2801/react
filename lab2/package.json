@@ -1,0 +1,22 @@
+{
+  "name": "campus-events",
+  "version": "1.0.0",
+  "description": "Campus Events: JavaScript, TypeScript і unit-тести",
+  "main": "dist/index.js",
+  "scripts": {
+    "start:js": "node src-js/index.js",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "start:ts": "node dist/index.js",
+    "test": "jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^30.0.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.0.0",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^6.0.3"
+  }
+}

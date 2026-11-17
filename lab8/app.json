@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "little-lemon",
+    "slug": "little-lemon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-system-ui",
+      "expo-status-bar"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {}
+  }
+}

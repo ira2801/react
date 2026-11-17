@@ -1,0 +1,23 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "description": "## Запуск",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "expo start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "~19.3.0",
+    "expo": "^58.0.25",
+    "expo-status-bar": "~58.0.5",
+    "expo-system-ui": "~58.0.7",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "typescript": "~6.0.3"
+  }
+}
